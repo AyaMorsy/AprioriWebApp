@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading;
 using System.Web.UI.WebControls;
 using System.Windows.Forms;
-using Apriori;
+//using Apriori;
 using BAL;
 using Label = System.Web.UI.WebControls.Label;
 
