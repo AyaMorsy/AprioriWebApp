@@ -21,6 +21,13 @@ namespace BAL
             ItemSets = new List<ItemSet>();
             SetDistinctValues(list);
         }
+        public Apriori(List<string> FilePath)
+        {
+
+            list = FilePath.Where(a => !string.IsNullOrWhiteSpace(a)).ToList();
+            ItemSets = new List<ItemSet>();
+            SetDistinctValues(list);
+        }
 
         public ItemSet GetItemSet(int length, int support, bool Candidates = false, bool IsFirstItemList = false)
         {
@@ -41,7 +48,7 @@ namespace BAL
                     bool found = false;
                     foreach (var item2 in item)
                     {
-                        if (word.Split('\t').Contains(item2))
+                        if (word.Split('#').Contains(item2))
                             found = true;
                         else
                         {
@@ -67,7 +74,7 @@ namespace BAL
             List<string> data = new List<string>();
             foreach (var item in values)
             {
-                var row = item.Split('\t');
+                var row = item.Split('#');
                 foreach (var item2 in row)
                 {
                     if (string.IsNullOrWhiteSpace(item2)) continue;

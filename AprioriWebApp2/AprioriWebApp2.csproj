@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -68,7 +69,83 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="contact.html" />
+    <Content Include="css\style.css" />
     <Content Include="Home.aspx" />
+    <Content Include="images\about\story-slider-01.jpg" />
+    <Content Include="images\app\appple-store.jpg" />
+    <Content Include="images\app\google-play.jpg" />
+    <Content Include="images\background\comming-soon.jpg" />
+    <Content Include="images\background\promo-video-back.jpg" />
+    <Content Include="images\blog\post-01.jpg" />
+    <Content Include="images\blog\post-02.jpg" />
+    <Content Include="images\blog\post-03.jpg" />
+    <Content Include="images\blog\post-body-image.jpg" />
+    <Content Include="images\blog\single-blog-feature-image.jpg" />
+    <Content Include="images\clients\business-finder.png" />
+    <Content Include="images\clients\buzz-feed.png" />
+    <Content Include="images\clients\forbes.png" />
+    <Content Include="images\clients\tech-crunch-new.png" />
+    <Content Include="images\clients\tech-crunch.png" />
+    <Content Include="images\clients\the-new-york-times.png" />
+    <Content Include="images\clients\the-washington-post.png" />
+    <Content Include="images\clients\venture-beat.png" />
+    <Content Include="images\drg.png" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\feature\feature-new-01.jpg" />
+    <Content Include="images\feature\feature-new-02.jpg" />
+    <Content Include="images\feature\featured-article.jpg" />
+    <Content Include="images\feature\ipad-lied.jpg" />
+    <Content Include="images\feature\ipad.jpg" />
+    <Content Include="images\feature\iphone-black.jpg" />
+    <Content Include="images\feature\iphone-ipad.jpg" />
+    <Content Include="images\feature\iphone-lied.jpg" />
+    <Content Include="images\feature\iphone.jpg" />
+    <Content Include="images\gallery\gallery-01.jpg" />
+    <Content Include="images\gallery\gallery-02.jpg" />
+    <Content Include="images\gallery\gallery-03.jpg" />
+    <Content Include="images\icons\supported-services.png" />
+    <Content Include="images\Login\front-desk-sign-in.jpg" />
+    <Content Include="images\Login\sign-up.jpg" />
+    <Content Include="images\logo-alt.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\mobile.png" />
+    <Content Include="images\team\design-team-01.jpg" />
+    <Content Include="images\team\design-team-02.jpg" />
+    <Content Include="images\team\design-team-03.jpg" />
+    <Content Include="images\team\featured-person-01.jpg" />
+    <Content Include="images\team\featured-person-02.jpg" />
+    <Content Include="images\team\marketing-team-01.jpg" />
+    <Content Include="images\team\marketing-team-02.jpg" />
+    <Content Include="images\team\marketing-team-03.jpg" />
+    <Content Include="images\testimonial\feature-testimonial-thumb.jpg" />
+    <Content Include="images\thumbs\promo-video-thumbnail.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\custom.js" />
+    <Content Include="plugins\aos\aos.css" />
+    <Content Include="plugins\aos\aos.js" />
+    <Content Include="plugins\bootstrap\bootstrap.min.css" />
+    <Content Include="plugins\bootstrap\bootstrap.min.js" />
+    <Content Include="plugins\fancybox\jquery.fancybox.min.css" />
+    <Content Include="plugins\fancybox\jquery.fancybox.min.js" />
+    <Content Include="plugins\google-map\gmap.js" />
+    <Content Include="plugins\google-map\images\marker.png" />
+    <Content Include="plugins\jquery\jquery.js" />
+    <Content Include="plugins\owl-carousel\assets\ajax-loader.gif" />
+    <Content Include="plugins\owl-carousel\assets\owl.carousel.css" />
+    <Content Include="plugins\owl-carousel\assets\owl.carousel.min.css" />
+    <Content Include="plugins\owl-carousel\assets\owl.theme.default.css" />
+    <Content Include="plugins\owl-carousel\assets\owl.theme.default.min.css" />
+    <Content Include="plugins\owl-carousel\assets\owl.theme.green.css" />
+    <Content Include="plugins\owl-carousel\assets\owl.theme.green.min.css" />
+    <Content Include="plugins\owl-carousel\assets\owl.video.play.png" />
+    <Content Include="plugins\owl-carousel\owl.carousel.js" />
+    <Content Include="plugins\owl-carousel\owl.carousel.min.js" />
+    <Content Include="plugins\popper\popper.min.js" />
+    <Content Include="plugins\syotimer\jquery.syotimer.min.js" />
+    <Content Include="plugins\themify-icons\fonts\themify.svg" />
+    <Content Include="plugins\themify-icons\themify-icons.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,7 +164,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower.json" />
+    <Content Include="css\maps\style.css.map" />
     <None Include="packages.config" />
+    <Content Include="plugins\owl-carousel\README.md" />
+    <Content Include="plugins\themify-icons\fonts\themify.eot" />
+    <Content Include="plugins\themify-icons\fonts\themify.ttf" />
+    <Content Include="plugins\themify-icons\fonts\themify.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
