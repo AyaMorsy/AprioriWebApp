@@ -165,6 +165,7 @@
   <ItemGroup>
     <Content Include="bower.json" />
     <Content Include="css\maps\style.css.map" />
+    <Content Include="buildspec.yml" />
     <None Include="packages.config" />
     <Content Include="plugins\owl-carousel\README.md" />
     <Content Include="plugins\themify-icons\fonts\themify.eot" />
