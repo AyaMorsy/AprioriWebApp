@@ -6,5 +6,6 @@ env:
     DOTNET_FRAMEWORK: 4.7.2
 artifacts:
   files:
-    - '**/*'
-  base-directory: 'C:\codebuild\artifacts\_PublishedWebsites\${env:PROJECT}_Package\Archive\'
+    - AprioriWebApp2/bin/**/*
+    - AprioriWebApp2/wwwroot/**/*
+    - appspec.yml
