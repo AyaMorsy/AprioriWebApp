@@ -1,5 +1,4 @@
 ﻿version: 0.2
-
 env:
   variables:
     PROJECT: AprioriWebApp2
