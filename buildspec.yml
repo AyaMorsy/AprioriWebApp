@@ -9,4 +9,4 @@ artifacts:
   files:
     - AprioriWebApp2/**/*
     - appspec.yml
-    - ./**/*
+    - '**/*'
