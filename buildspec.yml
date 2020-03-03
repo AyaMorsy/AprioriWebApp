@@ -3,9 +3,11 @@
 env:
   variables:
     PROJECT: AprioriWebApp2
+    SOLUTION: .\AprioriWebApp2.sln
+    PACKAGE_DIRECTORY: .\packages
     DOTNET_FRAMEWORK: 4.7.2
 artifacts:
   files:
-    - AprioriWebApp2/bin/**/*
-    - AprioriWebApp2/wwwroot/**/*
+    - AprioriWebApp2/**/*
     - appspec.yml
+    - ./**/*
