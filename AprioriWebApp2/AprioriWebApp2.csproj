@@ -92,6 +92,7 @@
     <Content Include="images\clients\the-washington-post.png" />
     <Content Include="images\clients\venture-beat.png" />
     <Content Include="images\drg.png" />
+    <Content Include="images\drn2.png" />
     <Content Include="images\favicon.png" />
     <Content Include="images\feature\feature-new-01.jpg" />
     <Content Include="images\feature\feature-new-02.jpg" />
@@ -165,7 +166,6 @@
   <ItemGroup>
     <Content Include="bower.json" />
     <Content Include="css\maps\style.css.map" />
-    <Content Include="buildspec.yml" />
     <None Include="packages.config" />
     <Content Include="plugins\owl-carousel\README.md" />
     <Content Include="plugins\themify-icons\fonts\themify.eot" />

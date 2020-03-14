@@ -53,7 +53,8 @@
                 height: 101px;
             }
             .auto-style4 {
-                height: 209px;
+                height: 96px;
+                width: 357px;
             }
         </style>
 
@@ -62,7 +63,7 @@
     
 <nav class="navbar main-nav navbar-expand-lg p-0">
   <div class="container">
-    <a class="navbar-brand" href="Home.aspx"><img src="images/drg.png" alt="logo" class="auto-style4" width="200" height="50"></a>
+    <a class="navbar-brand" href="Home.aspx"><img src="images/drn2.png" alt="logo" class="auto-style4"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="ti-menu"></span>
@@ -80,7 +81,7 @@
           </div>
         </li>
         <li class="nav-item dropdown dropdown-slide">
-          <a class="nav-link" href="#" data-toggle="dropdown">Pages
+          <a class="nav-link" href="#" data-toggle="dropdown">Feedback
             <span><i class="ti-angle-down"></i></span>
           </a>
           <!-- Dropdown list -->
@@ -127,7 +128,7 @@
 					<ul class="list-inline app-badge">
 						<!-- Apple Store -->
 						<li class="list-inline-item">
-						 <asp:Button ID="LoadFile" runat="server" Text="Load File" OnClick="LoadFile_Click" />
+						 <asp:Button ID="LoadFile" runat="server" Text=" Start  " OnClick="LoadFile_Click" />
 						</li>
 						<!-- Google Play -->
 						<li class="list-inline-item">
