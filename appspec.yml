@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: AprioriWebApp2/bin/
-    destination: /home/ubuntu/aspnetcoreapp
+    destination: F:\application\AprioriWebApp2
   
 hooks:
   ApplicationStop:
