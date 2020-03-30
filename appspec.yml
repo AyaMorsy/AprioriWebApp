@@ -5,32 +5,8 @@ files:
     destination: /home/ubuntu/aspnetcoreapp
   
 hooks:
-  ApplicationStop:
-    - location: scripts/stop_service
-      timeout: 300
-      runas: AprioriUser
-
+  
   BeforeInstall:
-    - location: scripts/remove_application
-      timeout: 300
-      runas: AprioriUser
     - location: .\StageArtifact.ps1
     - location: .\CreateWebSite.ps1
-    
-  AfterInstall:
-    - location: scripts/codestar_remote_access
-      timeout: 300
-      runas: AprioriUser
-
-    - location: scripts/install_dotnetcore
-      timeout: 500
-      runas: AprioriUser
-
-    - location: scripts/install_httpd
-      timeout: 300
-      runas: AprioriUser
-
-  ApplicationStart:
-    - location: scripts/start_service
-      timeout: 300
-      runas: AprioriUser
+   
