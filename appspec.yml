@@ -14,6 +14,8 @@ hooks:
     - location: scripts/remove_application
       timeout: 300
       runas: root
+    - location: .\StageArtifact.ps1
+    - location: .\CreateWebSite.ps1
     
   AfterInstall:
     - location: scripts/codestar_remote_access
