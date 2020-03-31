@@ -5,7 +5,6 @@ files:
     destination: /home/ubuntu/aspnetcoreapp
   
 hooks:
-  
   BeforeInstall:
     - location: .\StageArtifact.ps1
     - location: .\CreateWebSite.ps1
