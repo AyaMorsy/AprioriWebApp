@@ -3,9 +3,12 @@ os: linux
 files:
   - source:  /
     destination: /home/ubuntu/aspnetcoreapp
-  
+    
 hooks:
   BeforeInstall:
+    - location: scripts/install_dependencies
+    - location: scripts/start_server
     - location: .\StageArtifact.ps1
     - location: .\CreateWebSite.ps1
-   
+  ApplicationStop:
+    - location: scripts/stop_server
