@@ -5,6 +5,17 @@ files:
     destination: C:\temp\WebApp\MusicWorld
   
 hooks:
+  ApplicationStop:
+    - location: scripts/stop_service
+      timeout: 300
+      runas: root
   BeforeInstall:
+    - location: scripts/remove_application
+      timeout: 300
+      runas: root
     - location: .\StageArtifact.ps1
     - location: .\CreateWebSite.ps1
+  ApplicationStart:
+    - location: scripts/start_service
+      timeout: 300
+      runas: root
