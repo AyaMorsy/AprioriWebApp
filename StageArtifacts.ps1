@@ -21,7 +21,7 @@ function GetWebArtifactFolderPath($path)
         if (Test-Path $item.FullName -PathType Container)
         {   
             # return the full path for the folder which contains Global.asax
-            if (Test-Path ($item.fullname + "\Global.asax"))
+            if (Test-Path ($item.fullname + "\Home.aspx"))
             {
                 #$item.FullName
                 return $item.FullName;
