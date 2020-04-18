@@ -1,2 +1,3 @@
 #!/bin/bash
+sudo cp -r /home/ubuntu/Application/AprioriWebApp2/* /var/www/html/
 sudo service nginx reload
