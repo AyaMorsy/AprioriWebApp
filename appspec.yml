@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html
+     destination: /home/ubuntu/Application
 permissions:
-   - object: /var/www/html
+   - object: /home/ubuntu/Application
      pattern: "**"
      owner: root
      group: root
