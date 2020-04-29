@@ -43,23 +43,37 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
-    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
@@ -70,6 +84,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="bin\AprioriWebApp2.dll" />
+    <Content Include="bin\AprioriWebApp2.pdb" />
     <Content Include="contact.html" />
     <Content Include="css\style.css" />
     <Content Include="Home.aspx" />
@@ -122,8 +138,137 @@
     <Content Include="images\team\marketing-team-03.jpg" />
     <Content Include="images\testimonial\feature-testimonial-thumb.jpg" />
     <Content Include="images\thumbs\promo-video-thumbnail.jpg" />
-    <Content Include="index.html" />
     <Content Include="js\custom.js" />
+    <Content Include="obj\Debug\AprioriWebApp2.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\AprioriWebApp2.dll" />
+    <Content Include="obj\Debug\AprioriWebApp2.pdb" />
+    <Content Include="obj\Debug\CSAutoParameterize.parameters.xml" />
+    <Content Include="obj\Debug\Package\AprioriWebApp2.deploy-readme.txt" />
+    <Content Include="obj\Debug\Package\AprioriWebApp2.SetParameters.xml" />
+    <Content Include="obj\Debug\Package\AprioriWebApp2.SourceManifest.xml" />
+    <Content Include="obj\Debug\Package\PackageTmp\about.html" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\AprioriWebApp2.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\AprioriWebApp2.pdb" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\Microsoft.CSharp.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\csc.exe" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\csi.exe" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.AppContext.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Console.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.IO.Pipes.AccessControl.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.IO.Pipes.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Security.AccessControl.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Security.Claims.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Security.Principal.Windows.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\vbc.exe" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\System.ComponentModel.DataAnnotations.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\System.Configuration.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\System.Data.DataSetExtensions.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\System.Data.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\System.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\contact.html" />
+    <Content Include="obj\Debug\Package\PackageTmp\css\style.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\Home.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\about\story-slider-01.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\app\appple-store.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\app\google-play.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\background\comming-soon.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\background\promo-video-back.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\blog\post-01.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\blog\post-02.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\blog\post-03.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\blog\post-body-image.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\blog\single-blog-feature-image.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\clients\business-finder.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\clients\buzz-feed.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\clients\forbes.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\clients\tech-crunch-new.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\clients\tech-crunch.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\clients\the-new-york-times.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\clients\the-washington-post.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\clients\venture-beat.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\drg.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\drn2.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\favicon.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\feature\feature-new-01.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\feature\feature-new-02.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\feature\featured-article.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\feature\ipad-lied.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\feature\ipad.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\feature\iphone-black.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\feature\iphone-ipad.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\feature\iphone-lied.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\feature\iphone.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\gallery\gallery-01.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\gallery\gallery-02.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\gallery\gallery-03.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\icons\supported-services.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\Login\front-desk-sign-in.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\Login\sign-up.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\logo-alt.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\logo.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\mobile.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\team\design-team-01.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\team\design-team-02.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\team\design-team-03.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\team\featured-person-01.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\team\featured-person-02.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\team\marketing-team-01.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\team\marketing-team-02.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\team\marketing-team-03.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\testimonial\feature-testimonial-thumb.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\images\thumbs\promo-video-thumbnail.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\js\custom.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\aos\aos.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\aos\aos.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\bootstrap\bootstrap.min.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\bootstrap\bootstrap.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\fancybox\jquery.fancybox.min.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\fancybox\jquery.fancybox.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\google-map\gmap.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\google-map\images\marker.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\jquery\jquery.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\assets\ajax-loader.gif" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\assets\owl.carousel.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\assets\owl.carousel.min.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\assets\owl.theme.default.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\assets\owl.theme.default.min.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\assets\owl.theme.green.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\assets\owl.theme.green.min.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\assets\owl.video.play.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\owl.carousel.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\owl.carousel.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\popper\popper.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\syotimer\jquery.syotimer.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\themify-icons\fonts\themify.svg" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\themify-icons\themify-icons.css" />
+    <Content Include="obj\Debug\_WPPLastBuildInfo.txt" />
     <Content Include="plugins\aos\aos.css" />
     <Content Include="plugins\aos\aos.js" />
     <Content Include="plugins\bootstrap\bootstrap.min.css" />
@@ -166,6 +311,35 @@
   <ItemGroup>
     <Content Include="bower.json" />
     <Content Include="css\maps\style.css.map" />
+    <Content Include="obj\Debug\AprioriWebApp2.csproj.CopyComplete" />
+    <Content Include="obj\Debug\AprioriWebApp2.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\AprioriWebApp2.csprojAssemblyReference.cache" />
+    <Content Include="obj\Debug\CSAutoParameterize\original\Web.config" />
+    <Content Include="obj\Debug\CSAutoParameterize\transformed\Web.config" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\Package\AprioriWebApp2.deploy.cmd" />
+    <Content Include="obj\Debug\Package\AprioriWebApp2.zip" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\csc.exe.config" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\csc.rsp" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\csi.exe.config" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\csi.rsp" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.Managed.Core.targets" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\vbc.exe.config" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\vbc.rsp" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="obj\Debug\Package\PackageTmp\bower.json" />
+    <Content Include="obj\Debug\Package\PackageTmp\css\maps\style.css.map" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\owl-carousel\README.md" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\themify-icons\fonts\themify.eot" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\themify-icons\fonts\themify.ttf" />
+    <Content Include="obj\Debug\Package\PackageTmp\plugins\themify-icons\fonts\themify.woff" />
+    <Content Include="obj\Debug\Package\PackageTmp\Web.config" />
+    <Content Include="obj\Debug\TransformWebConfig\assist\Web.config" />
+    <Content Include="obj\Debug\TransformWebConfig\original\Web.config" />
+    <Content Include="obj\Debug\TransformWebConfig\transformed\Web.config" />
     <None Include="packages.config" />
     <Content Include="plugins\owl-carousel\README.md" />
     <Content Include="plugins\themify-icons\fonts\themify.eot" />
@@ -177,6 +351,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
